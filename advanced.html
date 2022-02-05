@@ -12,9 +12,29 @@
             <li><a href="index.html">Google Search</a></li>
         </ul>
     </nav>
+    <h1 id="h1">Advanced Search</h1>
     <form action="https://google.com/search">
-        <input id="text" type="text" name="q"><br>
-        <input id="submit2" type="submit" value="Advanced Search">
+        <h2>Find pages with...</h2>
+        <div class="text2">
+            <label for="allwords">all these words:</label>
+            <input class="input" type="text" name="as_q">
+        </div>
+        <div class="text2">
+            <label for="exactwords">this exact word or phrase:</label>
+            <input class="input" type="text" name="as_epq">
+        </div>
+        <div class="text2">
+            <label for="anywords">any of these words:</label>
+            <input class="input" type="text" name="as_oq">
+        </div>
+        <div class="text2">
+            <label for="nonewords">none of these words:</label>
+            <input class="input" type="text" name="as_eq">
+        </div>
+        <div>
+            <input class="submit3" type="submit" value="Advanced Search">
+        </div>
+
     </form>
 
 </body>

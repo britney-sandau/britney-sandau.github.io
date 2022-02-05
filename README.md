@@ -12,3 +12,6 @@ https://stackoverflow.com/questions/1409649/how-to-change-the-height-of-a-br
 
 To style the border.
 https://www.w3schools.com/css/css3_borders.asp
+
+To help align the search boxes in the advanced search tab.
+https://www.youtube.com/watch?v=vKjWkWfjcAA

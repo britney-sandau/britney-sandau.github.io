@@ -16,7 +16,7 @@ li a {
     text-decoration: none;
 }
 
-body {
+#main {
     text-align: center;
 }
 
@@ -31,18 +31,41 @@ br {
     content: " ";
 }
 
-#text {
+.text {
     border-radius: 25px;
     border: 2px solid black;
     width: 400px;
     height: 30px;
 }
 
-.button {}
-
-#submit2 {
+.submit2 {
     border-radius: 25px;
     border: 2px solid black;
     background-color: blue;
     color: white;
+}
+
+
+.submit3 {
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: blue;
+    color: white;
+    float: right;
+    margin: 25px;
+}
+
+#h1 {
+    color: red;
+}
+
+label {
+    width: 18em;
+    float: left;
+    margin: 5px;
+}
+
+.input {
+    margin: 5px;
+    width: 18em;
 }
